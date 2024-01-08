@@ -48,5 +48,15 @@
             background-size: cover;
             margin: auto;
         }
+        .polygon_main{
+            position: relative;
+            p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-19px, -34px);
+                
+            }
+        }
     }
 }
