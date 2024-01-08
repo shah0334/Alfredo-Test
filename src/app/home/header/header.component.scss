@@ -50,11 +50,15 @@
         }
         .polygon_main{
             position: relative;
+            .svg{
+                width: 100%;
+            }
             p{
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-19px, -34px);
+                transform: translate(-50%,-50%);
+                margin: 0;
                 
             }
         }

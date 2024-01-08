@@ -37,9 +37,11 @@
         }
     }
     .card_main_scroll{
-        min-height: 250px;
-        overflow: scroll;
-        height: 300px;
+        max-height: 400px; /* Set your preferred max-height */
+        overflow-y: auto; /* Add a vertical scrollbar if content exceeds max-height */
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
     }
     .card_shape {
         margin-bottom: 20px;
