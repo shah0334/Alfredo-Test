@@ -1,0 +1,18 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    .footer_flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img_width{
+         
+          img{
+            width:100%;
+
+          }
+          
+        }
+    }
+}

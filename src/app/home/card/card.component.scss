@@ -1,0 +1,94 @@
+.main_cards {
+    padding: 10px 25px;
+    text-align: center;
+
+    .cards_heading {
+        font-size: 20px;
+        color: #E0E0E0;
+    }
+
+    .cards_btn {
+    
+      .cards_btn{
+        margin-bottom: 10px;
+      }
+
+    }
+
+    .card_filters {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .filters_heading {
+            font-size: 20px;
+            color: #E0E0E0;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: space-between;
+
+            .img_left {
+                margin-right: 10px;
+            }
+        }
+    }
+    .card_main_scroll{
+        min-height: 250px;
+        overflow: scroll;
+        height: 415px;
+    }
+    .card_shape {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #00000073;
+        clip-path: polygon(6% 0, 93% 0, 100% 10%, 100% 90%, 94% 100%, 6% 100%, 0 91%, 0 14%);
+      
+        .date_time {
+            display: flex;
+            justify-content: space-between;
+
+            .date {
+                color:#E0E0E0 ;
+                font-size: 12px;
+            }
+        }
+
+        .flex_inner {
+            display: flex;
+            flex-wrap: wrap;
+
+            .flex_1 {
+                flex-basis: 50%;
+                text-align: left;
+                color: #E0E0E0;
+
+
+                h6 {
+                    font-size: 12px;
+                    margin-bottom: 0px;
+                }
+
+                .card_cube {
+                    padding: 2px 0px;
+                    background-color: purple;
+                    
+                    text-align: center;
+                    width: 75px;
+                    font-size: 10px;
+                    clip-path: polygon(11% 0, 91% 0, 100% 50%, 90% 100%, 13% 99%, 0% 50%);
+                }
+
+                .cart_text {
+                    font-size: 12px;
+                    padding: 0px;
+                    
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
+}

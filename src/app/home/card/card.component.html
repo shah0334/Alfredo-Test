@@ -1,0 +1,47 @@
+<section class="main_cards">
+    <h3 class="cards_heading">Wallet
+    </h3>
+    <div class="cards_btn">
+        <img class="btn_img" src="./assets/btn_1.png">
+        <img class="btn_img" src="./assets/btn_2.png">
+        <img class="btn_img" src="./assets/btn_3.png">
+    </div>
+
+    <div class="card_filters">
+        <h3 class="filters_heading">Balance </h3>
+        <div class="filters">
+            <img class="img_left" src="./assets/Search.png">
+            <img src="./assets/Filter.png">
+        </div>
+    </div>
+
+    <div class="card_main_scroll">
+        <div *ngFor="let card of cardArray" class="card_shape" ng>
+            <div class="date_time">
+                <div class="date">31/10/2023</div>
+                <div class="date">17:56</div>
+            </div>
+            <div class="flex_inner">
+                <div class="flex_1">
+                    <h6>Action</h6>
+                    <p class="card_cube ">Donation</p>
+                </div>
+                <div class="flex_1">
+                    <h6>Tile name</h6>
+                    <p class="cart_text">Referral</p>
+                </div>
+                <div class="flex_1">
+                    <h6>Amount (VV)</h6>
+                    <span class="cart_text">-452</span>
+                </div>
+                <div class="flex_1">
+                    <h6>Balance (VV)</h6>
+                    <span class="cart_text">3,122</span>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+
+</section>
